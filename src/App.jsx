@@ -1,9 +1,9 @@
 import { useLocation, Routes, Route, Link } from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./pages/About"; 
-import Project from "./pages/Project";
-import Experience from "./pages/Experience";
-import Contact from "./pages/Contact";
+import Home from "./pages/home";
+import About from "./pages/about";
+import Project from "./pages/project";
+import Experience from "./pages/experience";
+import Contact from "./pages/contact";
 
 function App() {
   const location = useLocation();
